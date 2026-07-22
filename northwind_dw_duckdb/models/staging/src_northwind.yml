@@ -1,0 +1,67 @@
+version: 2
+
+sources:
+  - name: northwind
+    schema: main
+    description: "Raw flat files queried directly from the local workspace"
+    tables:
+      - name: customer
+        meta:
+          external_location: "datasets/customer.csv"
+      - name: employee_privileges
+        meta:
+          external_location: "datasets/employee_privileges.csv"
+      - name: employees
+        meta:
+          external_location: "datasets/employees.csv"
+      - name: inventory_transaction_types
+        meta:
+          external_location: "datasets/inventory_transaction_types.csv"
+      - name: inventory_transactions
+        meta:
+          external_location: "datasets/inventory_transactions.csv"
+      - name: invoices
+        meta:
+          external_location: "datasets/invoices.csv"
+      - name: order_details
+        meta:
+          external_location: "datasets/order_details.csv"
+      - name: order_details_status
+        meta:
+          external_location: "datasets/order_details_status.csv"
+      - name: orders
+        meta:
+          external_location: "datasets/orders.csv"
+      - name: orders_status
+        meta:
+          external_location: "datasets/orders_status.csv"
+      - name: orders_tax_status
+        meta:
+          external_location: "datasets/orders_tax_status.csv"
+      - name: privileges
+        meta:
+          external_location: "datasets/privileges.csv"
+      - name: products
+        meta:
+          external_location: "datasets/products.csv"
+      - name: purchase_order_details
+        meta:
+          external_location: "datasets/purchase_order_details.csv"
+      - name: purchase_order_status
+        meta:
+          external_location: "datasets/purchase_order_status.csv"
+      - name: purchase_orders
+        meta:
+          external_location: "datasets/purchase_orders.csv"
+      - name: sales_reports
+        meta:
+          external_location: "datasets/sales_reports.csv"
+      - name: shippers
+        meta:
+          external_location: "datasets/shippers.csv"
+      - name: strings
+        meta:
+          external_location: "datasets/strings.csv"
+      - name: suppliers
+        meta:
+          external_location: "datasets/suppliers.csv"
